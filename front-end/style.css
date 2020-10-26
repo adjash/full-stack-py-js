@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p {
+    font-size: 18px;
+}
+#main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.job-item {
+    width: 100%;
+    background-color: grey;   
+    margin-top: 1em;
+    padding: 2em 2em 2em 2em;
+}
+.job-title {
+    font-size: 3rem;
+}
+.job-logo {
+    max-width: 125px;
+}
